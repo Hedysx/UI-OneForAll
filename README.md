@@ -2,15 +2,15 @@
 带有UI的OneForAll，支持py3.13
 
 # 使用前加载依赖
-[`cd OneForAll/
-python3 -m pip install -U pip setuptools wheel -i https://mirrors.aliyun.com/pypi/simple/
-pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
-python3 oneforall.py --help`]
+- cd OneForAll/
+- python3 -m pip install -U pip setuptools wheel -i https://mirrors.aliyun.com/pypi/simple/
+- pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
+- python3 oneforall.py --help
 
 # UI版本和命令版本的使用
-[`python3 ui.py
-python3 oneforall.py --target example.com run
-python3 oneforall.py --targets ./example.txt run `]
+- python3 ui.py
+- python3 oneforall.py --target example.com run
+- python3 oneforall.py --targets ./example.txt run
 
 # 本次更新-2026-03-23
 本次围绕 Python 3.13 和项目可用性，主要做了这几类更新。
